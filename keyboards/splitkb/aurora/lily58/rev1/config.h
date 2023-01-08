@@ -34,6 +34,8 @@
 #    define SPLIT_TRANSPORT_MIRROR
 #endif
 
+#define RGBLIGHT_ANIMATIONS
+
 // Not yet available in `info.json`
 #ifdef BOOTMAGIC_ENABLE
      // Top left key on left half
