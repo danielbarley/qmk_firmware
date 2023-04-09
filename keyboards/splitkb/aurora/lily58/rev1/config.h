@@ -32,16 +32,26 @@
 #    define RGB_MATRIX_LED_COUNT RGBLED_NUM
 #    define RGB_MATRIX_SPLIT RGBLED_SPLIT
 #    define SPLIT_TRANSPORT_MIRROR
+#    define ENABLE_RGB_MATRIX_BAND_SAT
+#    define ENABLE_RGB_MATRIX_BAND_VAL
+#    define ENABLE_RGB_MATRIX_CYCLE_OUT_IN_DUAL
+#    define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
+#    define ENABLE_RGB_MATRIX_CYCLE_PINWHEEL
+#    define ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
+#    define ENABLE_RGB_MATRIX_CYCLE_SPIRAL
+#    define ENABLE_RGB_MATRIX_RAINBOW_BEACON
+#    define ENABLE_RGB_MATRIX_RAINDROPS
+#    define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
+#    define ENABLE_RGB_MATRIX_HUE_WAVE
+#    define ENABLE_RGB_MATRIX_HUE_PENDULUM
 #endif
-
-#define RGBLIGHT_ANIMATIONS
 
 // Not yet available in `info.json`
 #ifdef BOOTMAGIC_ENABLE
-     // Top left key on left half
+// Top left key on left half
 #    define BOOTMAGIC_LITE_ROW 0
 #    define BOOTMAGIC_LITE_COLUMN 0
-     // Top right key on right half
-#    define BOOTMAGIC_LITE_ROW_RIGHT    5
+// Top right key on right half
+#    define BOOTMAGIC_LITE_ROW_RIGHT 5
 #    define BOOTMAGIC_LITE_COLUMN_RIGHT 0
 #endif

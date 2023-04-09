@@ -8,7 +8,7 @@
         "bootmagic": true,
         "extrakey": true,
         "oled": true,
-        "rgb_matrix": false
+        "rgb_matrix": true
     },
     "layouts": {
         "LAYOUT": {
